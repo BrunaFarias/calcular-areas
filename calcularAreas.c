@@ -8,11 +8,35 @@
 #include <math.h>
 
 float calcularAreaCirculo(float raio){
-	pi=3.14;
-	return pi*pow(raio,2);
+	float pi=3.14;
+	return pi*raio*raio;
+}
+
+void areaTriangulo(){
+	int base, altura;
+	float area;
+
+	printf(" insira a base do tringulo");
+	scanf("%d", &base);
+	printf(" insira a altura do tringulo");
+	scanf("%d", &altura);
+
+	area = ((base * altura)/2);
+	//printf("A area do tringulo eh: %d", area );
+		
+}
+
+void areaQuadrado(){
+	int baseQ, alturaQ,areaQ;
+	printf(" insira a base do tringulo");
+	scanf("%d", &baseQ);
+	printf(" insira a altura do tringulo");
+	scanf("%d", &alturaQ);
+
+	areaQ = baseQ * alturaQ;
 }
 
 int main(){
-	printf("Hello World");
-	return 0;
+	
+
 }
