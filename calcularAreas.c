@@ -5,6 +5,13 @@
 	Descrição: Calcular area do circulo tringulo equilatero e quadrado */
 
 #include <stdio.h>
+#include <math.h>
+
+float calcularAreaCirculo(float raio){
+	pi=3.14;
+	return pi*pow(raio,2);
+}
+
 int main(){
 	printf("Hello World");
 	return 0;
