@@ -1,6 +1,6 @@
 /*Oficina Git - Controle de Versão
 	Professor: Orlewilson B. Maia
-	Equipe: Bruna Tatiane, Wendel Nascimento, Natanel Cruz
+	Equipe: Bruna Tatiane, Wendell Nascimento, Natanel Cruz
 	Data: 08/08/2018
 	Descrição: Calcular area do circulo tringulo equilatero e quadrado */
 
